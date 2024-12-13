@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Аналоговые и цифровые камеры</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+	<style>
+		.shower {
+			--slide-ratio: calc(16 / 9);
+		}
+		.slide-content {
+			font-size: 0.8em;
+		}
+		#cover .highlight {
+			position: absolute;
+			left: 0%;
+			top: 30%;
+			width: 100%;
+			height: 40%;
+			background-color: rgba(0, 0, 255, 0.5);
+			border-radius: 10px;
+		}
+		#cover h2, #cover p {
+			position: relative;
+			z-index: 1;
+			text-align: center;
+			color: white;
+		}
+		#cover h2 {
+			font-size: 70px;
+			font-weight: bold;
+			margin: 30px 0 0;
+		}
+		#cover p {
+			font-size: 20px;
+			font-style: italic;
+			margin: 10px 0 0;
+		}
+		.two-columns {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			gap: 20px;
+		}
+		.column {
+			width: 45%;
+			font-size: 0.9em;
+			line-height: 1.2;
+		}
+		.column img {
+			width: 110%;
+			height: auto;
+		}
+	</style>
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Аналоговые и цифровые видеокамеры, IP- камеры. Устройство видеокамеры, программные средства</h1>
+		<p>МГТУ им. Баумана</p>
+	</header>
+
+	<section class="slide" id="cover">
+		<div class="background"></div>
+		<div class="highlight"></div>
+		<h2 style="margin-top: 110px;">Аналоговые и цифровые видеокамеры, IP-камеры</h2>
+		<p style="margin-top: 30px;">Подготовил студент ИУ3-31М Белоусов В.С.</p>
+		<figure>
+			<img class="cover" src="pictures/cover.jpeg" alt="Изображение видеокамеры">
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2 style="color: cornflowerblue;">Содержание</h2>
+		<ol class="slide-content">
+			<li>Введение</li>
+			<li>Аналоговые видеокамеры</li>
+			<li>Цифровые видеокамеры</li>
+			<li>Устройство IP видеокамеры</li>
+			<li>Программные средства для видеокамер</li>
+			<li>Примеры применения</li>
+			<li>Тенденции в развитии видеонаблюдения</li>
+			<li>Использование камер в военной сфере</li>
+			<li>Заключение</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2 style="color: cornflowerblue;">1. Введение</h2>
+		<p>Ключевые различия между аналоговыми и цифровыми видеокамерами, а также внутреннее устройство видеокамер.</p>
+		<figure>
+			<img src="pictures/cameras.jpg" alt="Картинка видеокамеры" style="width: 90%; height: auto;">
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2 style="color: cornflowerblue;">2. Аналоговые видеокамеры</h2>
+		<div class="two-columns">
+			<div class="column">
+				<p>На сегодняшний день для осуществления видеонаблюдения в охранных целях в основном используются цифровые камеры.</p>
+				<p>Аналоговые камеры для видеонаблюдения являются предшественниками цифровых, однако они не утратили свою актуальность и сейчас. Аналоговые камеры преобразуют изображение в непрерывный аналоговый видеосигнал.</p>
+			</div>
+			<div class="column">
+				<figure>
+					<img src="pictures/analogCameras.jpg" alt="Аналоговые камеры" style="width: 80%;">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 style="color: cornflowerblue;">3. Цифровые видеокамеры</h2>
+		<div class="two-columns">
+			<div class="column">
+				<p>Цифровые камеры основаны на
+					цифровой технологии, которая
+					преобразует оптическое
+					изображение в цифровой формат,
+					представленный в виде пикселей.</p>
+				<p>Эти камеры обеспечивают высокое
+					качество изображения, легкость
+					хранения и обработки данных, а
+					также позволяют непосредственно
+					передавать видео через сеть.</p>
+			</div>
+			<div class="column">
+				<figure>
+					<img src="pictures/digitalCameraSchema.jpg" alt="Аналоговые камеры" style="width: 95%;">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 style="color: cornflowerblue;">3.1 IP видеокамеры</h2>
+		<div class="two-columns">
+			<div class="column">
+				<p>IP-камера — слаботочное оборудование.
+					Питание получает от адаптера, PoEкоммутатора или видеорегистратора,
+					если он поддерживает технологию PoE.</p>
+				<p>PoE — Power over Ethernet, подача
+					питания по сети Ethernet, по витой паре
+					одновременно с трансляцией данных.</p>
+			</div>
+			<div class="column">
+				<figure>
+					<img src="pictures/ipCameras.jpg" alt="Аналоговые камеры" style="width: 95%;">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Shower key features</h2>
+		<ol>
+			<li>Built on HTML, CSS and JavaScript</li>
+			<li>Works in all modern browsers</li>
+			<li>Themes are separated from engine</li>
+			<li>Fully keyboard accessible</li>
+			<li>Printable to PDF</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Зеленый слоник</h2>
+		<p>Кто мы то? К кому ты обращаешься?</p>
+	</section>
+
+	<section class="slide">
+		<h2>Я робот</h2>
+		<div class="columns two">
+			<p>Разве может робот написать симфонию? А взять чистый холст и превратить его в шедевр?</p>
+			<p>Абоба</p>
+		</div>
+	</section>
+</body>
+</html>
